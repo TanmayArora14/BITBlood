@@ -1,0 +1,17 @@
+.home-page-container {
+    background-image: url('./assets/images/homepage_photo.jpg');
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    min-height: 100vh; /* Ensure the container takes up at least the full height of the viewport */
+    padding: 1rem; /* Optional: Add padding if needed */
+  }
+  
+  .content-container {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background to ensure text is readable */
+    padding: 2rem; /* Add padding around the content */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    max-width: 100%; /* Ensure content does not exceed the container width */
+    overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+  }
+  
